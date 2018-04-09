@@ -1,0 +1,44 @@
+SELECT Proveedores.IdProveedor, Cliente.IdCliente
+FROM Proveedores
+LEFT JOIN Cliente
+ON Proveedores.IdProveedor = Cliente.IdCliente
+ORDER BY Proveedores.IdProveedor;
+
+SELECT Proveedores.Nombre, Cliente.Nombre
+FROM Proveedores
+LEFT JOIN Cliente
+ON Proveedores.Nombre = Cliente.Nombre
+ORDER BY Proveedores.Nombre;
+
+SELECT Sucursal.IdSucursal, Cliente.IdCliente
+FROM Sucursal
+LEFT JOIN Cliente
+ON Sucursal.IdSucursal = Cliente.IdCliente
+ORDER BY Sucursal.IdSucursal;
+
+SELECT Empleado.Telefono, Cliente.Telefono
+FROM Empleado
+LEFT JOIN Cliente
+ON Empleado.Telefono = Cliente.Telefono
+ORDER BY Empleado.Telefono;
+
+SELECT Cliente.IdCliente, Empleado.IdEmpleado
+FROM Cliente
+INNER JOIN Empleado ON Cliente.IdCliente = Empleado.IdEmpleado; 
+
+SELECT Cliente.Telefono, Empleado.Telefono
+FROM Cliente
+INNER JOIN Empleado ON Cliente.Telefono = Empleado.Telefono; 
+
+SELECT Cliente.Nombre, Empleado.Nombre
+FROM Cliente
+INNER JOIN Empleado ON Cliente.Nombre = Empleado.Nombre;
+
+SELECT * FROM Empleado
+CROSS JOIN Cliente;
+
+SELECT * FROM Inventario
+CROSS JOIN Proveedores;
+
+SELECT * FROM Sucursal
+CROSS JOIN Cliente;

@@ -1,0 +1,7 @@
+SELECT * INTO Zapateria
+FROM Proveedores; 
+
+WITH Zapateria AS (SELECT * FROM Cliente)
+SELECT * FROM Zapateria
+
+SELECT * FROM Inventario WHERE PrecioCompra = 500
