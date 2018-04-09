@@ -1,0 +1,24 @@
+SELECT COUNT(IdProducto), PrecioCompra
+FROM Inventario
+GROUP BY PrecioCompra
+HAVING COUNT(IdProducto) < 1000
+
+SELECT COUNT(IdProducto), PrecioCompra
+FROM Inventario
+GROUP BY PrecioCompra
+HAVING COUNT(IdProducto) < 900
+
+SELECT COUNT(IdProducto), PrecioCompra
+FROM Inventario
+GROUP BY PrecioCompra
+HAVING COUNT(IdProducto) < 800
+
+SELECT COUNT(IdProducto), PrecioCompra
+FROM Inventario
+GROUP BY PrecioCompra
+HAVING COUNT(IdProducto) < 700
+
+SELECT COUNT(IdProducto), PrecioCompra
+FROM Inventario
+GROUP BY PrecioCompra
+HAVING COUNT(IdProducto) < 600

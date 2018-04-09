@@ -1,0 +1,19 @@
+SELECT COUNT(IdProducto), Material
+FROM Inventario
+GROUP BY Material;
+
+SELECT COUNT(IdProducto), Talla
+FROM Inventario
+GROUP BY Talla;
+
+SELECT COUNT(IdProducto), Modelo
+FROM Inventario
+GROUP BY Modelo;
+
+SELECT COUNT(IdProducto), Color
+FROM Inventario
+GROUP BY Color;
+
+SELECT COUNT(IdProducto), Marca
+FROM Inventario
+GROUP BY Marca;

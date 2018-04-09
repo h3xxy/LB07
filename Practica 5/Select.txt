@@ -1,0 +1,14 @@
+SELECT * FROM Inventario
+WHERE Color = 'Azul'
+
+SELECT * FROM Inventario
+WHERE Color = 'Rojo'
+
+SELECT * FROM Inventario
+WHERE Color = 'Negro'
+
+SELECT * FROM Inventario
+WHERE Color = 'Gris'
+
+SELECT * FROM Inventario
+WHERE Color = 'Verde'
