@@ -1,0 +1,10 @@
+CREATE TRIGGER Tri_Emp ON Empleado
+  FOR INSERT AS PRINT 'Empleado registrado'
+  GO
+
+ALTER TRIGGER Tri_Emp1 ON Empleado
+  FOR INSERT, UPDATE AS PRINT 'Empleado Modificado'
+  GO
+
+ALTER TRIGGER TG_INSERT
+ON Cliente INSTEAD OF INSERT AS INSERT INTO LOGS VALUES('Datos Agregados',GETDATE())
