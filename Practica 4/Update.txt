@@ -1,0 +1,20 @@
+UPDATE Cliente
+SET IdCliente = 4831
+WHERE IdCliente = 4717
+
+UPDATE Cliente
+SET IdCliente = 1878
+WHERE IdCliente = 4977
+
+UPDATE Cliente
+SET IdCliente = 3675
+WHERE IdCliente = 3054
+
+UPDATE Cliente
+SET IdCliente = 1512
+WHERE IdCliente = 9601
+
+UPDATE Cliente
+SET IdCliente = 1251
+WHERE IdCliente = 7262
+

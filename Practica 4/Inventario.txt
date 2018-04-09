@@ -1,0 +1,21 @@
+INSERT INTO Inventario (IdProducto, IdProveedor, Modelo, Color, Material, Marca, Talla, PrecioCompra, PrecioVenta, CantidadExistente)
+VALUES (8128, 6354, 654, 'Azul', 'Cuero', 'Nike', '8', 900, 1100, 10);
+INSERT INTO Inventario (IdProducto, IdProveedor, Modelo, Color, Material, Marca, Talla, PrecioCompra, PrecioVenta, CantidadExistente)
+VALUES (9965, 2148, 321, 'Rojo', 'Sintetico', 'Charlie', '6', 600, 900, 21);
+INSERT INTO Inventario (IdProducto, IdProveedor, Modelo, Color, Material, Marca, Talla, PrecioCompra, PrecioVenta, CantidadExistente)
+VALUES (1749, 3215, 878, 'Negro', 'Tela', 'Adidas', '9', 670, 1050, 14);
+INSERT INTO Inventario (IdProducto, IdProveedor, Modelo, Color, Material, Marca, Talla, PrecioCompra, PrecioVenta, CantidadExistente)
+VALUES (3055, 8783, 562, 'Gris', 'Sintetico', 'Ozono', '10', 500, 700, 9);
+INSERT INTO Inventario (IdProducto, IdProveedor, Modelo, Color, Material, Marca, Talla, PrecioCompra, PrecioVenta, CantidadExistente)
+VALUES (1235, 3546, 874, 'Verde', 'Tela', 'Vans', '7', 800, 1500, 35);
+INSERT INTO Inventario (IdProducto, IdProveedor, Modelo, Color, Material, Marca, Talla, PrecioCompra, PrecioVenta, CantidadExistente)
+VALUES (8320, 9876, 632, 'Cafe', 'Cuero', 'Nike', '6', 700, 1000, 10);
+INSERT INTO Inventario (IdProducto, IdProveedor, Modelo, Color, Material, Marca, Talla, PrecioCompra, PrecioVenta, CantidadExistente)
+VALUES (2520, 6516, 354, 'Rojo', 'Tela', 'Charlie', '7', 600, 800, 21);
+INSERT INTO Inventario (IdProducto, IdProveedor, Modelo, Color, Material, Marca, Talla, PrecioCompra, PrecioVenta, CantidadExistente)
+VALUES (2321, 5168, 985, 'Verde', 'Sintetico', 'Adidas', '8', 685, 1050, 14);
+INSERT INTO Inventario (IdProducto, IdProveedor, Modelo, Color, Material, Marca, Talla, PrecioCompra, PrecioVenta, CantidadExistente)
+VALUES (3148, 3213, 266, 'Rojo', 'Sintetico', 'Ozono', '9', 550, 700, 9);
+INSERT INTO Inventario (IdProducto, IdProveedor, Modelo, Color, Material, Marca, Talla, PrecioCompra, PrecioVenta, CantidadExistente)
+VALUES (9898, 8745, 987, 'Gris', 'Tela', 'Vans', '10', 850, 1500, 35);
+

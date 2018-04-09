@@ -1,0 +1,14 @@
+DELETE FROM Cliente
+WHERE IdCliente = 8791;
+
+DELETE FROM Cliente
+WHERE IdCliente = 4831;
+
+DELETE FROM Cliente
+WHERE IdCliente = 4535;
+
+DELETE FROM Cliente
+WHERE IdCliente = 3675;
+
+DELETE FROM Cliente
+WHERE IdCliente = 3051;

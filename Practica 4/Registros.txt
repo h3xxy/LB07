@@ -1,0 +1,31 @@
+INSERT INTO Cliente (IdCliente, Nombre, ApellidoP, ApellidoM, Telefono, Calle, Numero, CP, Colonia)
+VALUES (8824, 'Isaac', 'V.', 'Franco', 325-6850, 'Calle', 2599, 4364, 'Belize');
+
+INSERT INTO Cliente (IdCliente, Nombre, ApellidoP, ApellidoM, Telefono, Calle, Numero, CP, Colonia)
+VALUES (6622, 'Alfreda', 'N.', 'Fields', 1-382-604-7637, 'Tellus Avda.', 9019, 8440, 'Benin');
+
+INSERT INTO Cliente (IdCliente, Nombre, ApellidoP, ApellidoM, Telefono, Calle, Numero, CP, Colonia)
+VALUES (5043, 'Hayfa', 'C.', 'Sheppard', 1-719-366-7672, 'Tristique', 698, 18533, 'Martinique');
+
+INSERT INTO Cliente (IdCliente, Nombre, ApellidoP, ApellidoM, Telefono, Calle, Numero, CP, Colonia)
+VALUES (7505, 'Erasmus', 'Z.', 'Price', 1-864-580-2552, 'Risus', 2983, 5357, 'Kuwait');
+
+INSERT INTO Cliente (IdCliente, Nombre, ApellidoP, ApellidoM, Telefono, Calle, Numero, CP, Colonia)
+VALUES (7209, 'Marvin', 'P.', 'Snider', 550-6974, 'Ultrices', 503, 87278, 'Ireland');
+
+INSERT INTO Cliente (IdCliente, Nombre, ApellidoP, ApellidoM, Telefono, Calle, Numero, CP, Colonia)
+VALUES (4576, 'Dana', 'Zenaida', 'Soto', 692-6308, 'Est. Rd.', 7422, 2166, 'Liberia');
+
+INSERT INTO Cliente (IdCliente, Nombre, ApellidoP, ApellidoM, Telefono, Calle, Numero, CP, Colonia)
+VALUES (7904, 'Cole', 'Jakeem', 'Hart', 529-8887, 'Vehicula. Ave', 8169, 31014, 'Belize');
+
+INSERT INTO Cliente (IdCliente, Nombre, ApellidoP, ApellidoM, Telefono, Calle, Numero, CP, Colonia)
+VALUES (1772, 'Yen', 'L.', 'Dotson', 780-4046,  'Suscipit Av.', 8050, 2641, 'Bermuda');
+
+INSERT INTO Cliente (IdCliente, Nombre, ApellidoP, ApellidoM, Telefono, Calle, Numero, CP, Colonia)
+VALUES (2749, 'Jared', 'Z.', 'Randolph', 771-2226, 'Aliquam Rd.', 1011, 6150, 'Switzerland');
+
+INSERT INTO Cliente (IdCliente, Nombre, ApellidoP, ApellidoM, Telefono, Calle, Numero, CP, Colonia)
+VALUES (6807, 'Hamish', 'F.', 'Jacobs', 678-0143, 'Odio. Rd.', 8683, 7460, 'Ireland');
+
+

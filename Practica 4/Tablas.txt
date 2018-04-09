@@ -1,0 +1,48 @@
+CREATE TABLE Sucursal (
+    IdSucursal int NOT NULL PRIMARY KEY,
+    Nombre varchar(100),
+	Telefono int,
+	Direccion varchar(100)
+);
+
+CREATE TABLE Inventario (
+    IdProducto int NOT NULL PRIMARY KEY,
+    IdProveedor int,
+	Modelo int,
+	Color varchar(50),
+	Material varchar(50),
+	Marca varchar(50),
+	Talla varchar(50),
+	PrecioCompra int,
+	PrecioVenta int,
+	CantidadExistente int,
+);
+
+CREATE TABLE Proveedores (
+    IdProveedor int NOT NULL PRIMARY KEY,
+	Nombre varchar(50),
+	RFC varchar(50),
+	Folio int,
+	Direccion varchar(100),
+);
+
+CREATE TABLE Cliente (
+    IdCliente int NOT NULL PRIMARY KEY,
+	Nombre varchar(20),
+	ApellidoP varchar(20),
+	ApellidoM varchar(20),
+	Telefono int,
+	Calle varchar(50),
+	Numero int,
+	CP int,
+	Colonia varchar(50),
+);
+
+CREATE TABLE Empleado (
+	IdEmpleado int NOT NULL PRIMARY KEY,
+	Nombre varchar(50),
+	ApellidoP varchar(50),
+	ApellidoM varchar(50),
+	Telefono int,
+	Direccion varchar,
+);

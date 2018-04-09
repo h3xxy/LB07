@@ -1,0 +1,20 @@
+INSERT INTO Cliente (IdCliente, Nombre, Telefono, Direccion)
+VALUES (4717, 'Ignatius L. Wood', 13587677056, '1547 Mauris Avda.');
+INSERT INTO Cliente (IdCliente, Nombre, Telefono, Direccion)
+VALUES (1172, 'Quynn Q. Mueller', 15595814798, '698 Fames C');
+INSERT INTO Cliente (IdCliente, Nombre, Telefono, Direccion)
+VALUES (4535, 'Abbot Y. Byers', 15276123121, '7497 Vivamus Avenida');
+INSERT INTO Cliente (IdCliente, Nombre, Telefono, Direccion)
+VALUES (4977, 'Gretchen X. Delgado', 15059693776, '1941 Eu Avenida');
+INSERT INTO Cliente (IdCliente, Nombre, Telefono, Direccion)
+VALUES (9985, 'Chaney G. Faulkner', 16635995911, '7905 Enim');
+INSERT INTO Cliente (IdCliente, Nombre, Telefono, Direccion)
+VALUES (7262, 'Lewis D. Kinney', 19115404797, '6561 Aliquet');
+INSERT INTO Cliente (IdCliente, Nombre, Telefono, Direccion)
+VALUES (9601, 'Jelani X. Gregory', 19841626958, '8079 In, C');
+INSERT INTO Cliente (IdCliente, Nombre, Telefono, Direccion)
+VALUES (3054, 'Savannah U. Rutledge', 15078036157, '8000 Sagittis.');
+INSERT INTO Cliente (IdCliente, Nombre, Telefono, Direccion)
+VALUES (3051, 'Francesca H. Walters', 13843470973, '5123 Et');
+INSERT INTO Cliente (IdCliente, Nombre, Telefono, Direccion)
+VALUES (8791, 'Sawyer W. Mcmillan', 11894921674, '8189 At Avenida');
